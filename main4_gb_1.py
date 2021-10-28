@@ -82,6 +82,7 @@ print()
 # 123 // 10 = 12
 
 
+
 totalSum = 0
 for val in myList:
     s = str(val)
@@ -97,3 +98,9 @@ for val in myList:
         totalSum += val
         print("делится na 7:",val, ", сумма цифр:",summa)
 print("total sum:", totalSum)
+
+a = int(input('enter a'))
+b = int(input('enter b'))
+print(a+b)
+
+
