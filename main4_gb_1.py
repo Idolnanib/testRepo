@@ -82,23 +82,9 @@ print()
 # 123 // 10 = 12
 
 
-totalSum = 0
-for val in myList:
-    s = str(val)
 
-    # вычисляем сумму цифр в каждом числе
-    summa = 0
-    for symbol in s:
-        digit = int(''.join(symbol)) #конвертируем символ в строку, а потом с число
-        summa += digit
-    # проверяем, что сумма цифр делится нацело на 7
-    if summa % 7 == 0:
-        # если да, то ищем сумму всех чисел
-        totalSum += val
-        print("делится na 7:",val, ", сумма цифр:",summa)
-print("total sum:", totalSum)
-
-
-
+a = int(input('enter a'))
+b = int(input('enter b'))
+print(a+b)
 
 
