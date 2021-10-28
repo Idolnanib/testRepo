@@ -97,8 +97,3 @@ for val in myList:
         totalSum += val
         print("делится na 7:",val, ", сумма цифр:",summa)
 print("total sum:", totalSum)
-
-
-
-
-
